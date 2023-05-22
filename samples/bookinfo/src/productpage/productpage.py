@@ -453,4 +453,4 @@ if __name__ == '__main__':
     if sys.platform == "linux":
         app.run(host='::', port=p, debug=True, threaded=True)
     else:
-        app.run(host='0.0.0.0', port=p, debug=True, threaded=True)
+        app.run(host='::', port=p, debug=True, threaded=True)
